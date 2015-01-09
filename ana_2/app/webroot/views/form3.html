@@ -1,0 +1,58 @@
+<div class="span8 rojo ">
+
+
+				<div class="formul span10">
+					<p class="nesesitamos">Muy bien ahora necesitamos los datos de tu coche!</p>
+
+					<form name="form3" ng-show="years" ng-submit="checkForm(form3.$valid)">
+
+						<div class="inline row-fluid">
+							Año: 
+							<select class="camposdir" ng-model="car.year" ng-change="getBrands()" required>
+								<option ng-repeat="(key_year , year) in years" value="{{ key_year }}">{{ year }}</option>
+							</select>
+
+						</div>					
+						<div class="inline row-fluid">
+							Marca:
+							<select class="camposdir" ng-model="car.brand" ng-change="getSubBrands()" required>
+								<option ng-repeat="(key_brand , brand) in brands" value="{{ key_brand }}">{{ brand }}</option>
+							</select>
+						</div>				
+						<div class="inline row-fluid">
+							Sub-marca:
+							<select class="camposdir" ng-model="car.subbrand" ng-change="getVehicles()" required>
+								<option ng-repeat="(key_subbrand , subbrand) in subbrands" value="{{ key_subbrand }}">{{ subbrand }}</option>
+							</select>
+						</div>
+						
+						
+						<div class="inline row-fluid">
+							Modelo: 
+							<select class="camposdir" ng-change="setDescription() " ng-model="car.vehicle"  required >
+								<option ng-repeat="(key_vehicle , vehicle) in vehicles" value="{{ key_vehicle }}">{{ vehicle }}</option>
+							</select>
+
+						</div>
+						
+						
+						<button type="submit" class="btn">Siguiente</button>
+
+					</form>
+				</div>
+				
+			</div>
+			<div class="span4 azul">
+				<img src="images/banner-lateral.jpg" alt="ersponde por ti" class="responde">
+				<div class="into-azul">
+
+					<div row-fluid class="datos">
+						<input id="_Nombre" class="cotiza_nombre" type="text" value="" maxlength="50" size="15" name="data[Contacto][nombre]"> <br> <br>
+						<input name="data[Telefono][lada]" class="cotiza_lada" class="cotizador2" value="55" size="5" maxlength="5" id="_Lada" type="text">
+						<input name="data[Telefono][telefono]" class="cotiza_telefono" size="10" maxlength="20" id="_Telefono" value="" type="text">
+
+					</div>
+
+				</div>
+				<input type="submit" class="fecha" value="Enviar">
+			</div>

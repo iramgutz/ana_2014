@@ -1,0 +1,319 @@
+body.covertura h1{
+	text-align: center;
+	font-weight: lighter;
+	line-height: 150%;
+}
+
+h1,h2,h3,h4 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+body.covertura p.red-text{
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold;
+}
+body.covertura{
+	background-color: #ecefff;
+}
+body.covertura div.area{
+	display: block;
+	max-width: 740px;
+	margin: auto;
+	min-width: 450px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 4px #888888;
+}
+
+body.covertura div.flash{
+	margin-top: 20px;
+	height: 205px;
+	background-color: #484848;
+}
+body.covertura div.rojo{
+	background-image: url(../images/fondo_rojo2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 296px;
+	max-height: 100%;
+	position: relative;
+}
+body.covertura div.azul{
+	
+	height: auto;
+	background-color: #ffffff;
+}
+body.covertura img.responde{
+	display: block;
+	margin: auto;
+	max-height: 100%;
+}
+body.covertura div.verde{
+	height: auto;
+	min-height: 50px;
+	background-color: #ffffff;
+}
+body.covertura  img.slogan{
+	display: block;
+	margin: auto;
+
+}
+body.covertura  img.covertura{
+	display: block;
+	
+}
+body.covertura .aire{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+body.covertura .center{
+	text-align: center;
+}
+body.covertura input.cotiza_nombre{
+	position: relative;
+	bottom: 105px;
+	height: 14px;
+	left: 11px;
+	width: 90px;
+	margin-top: 100%;
+}
+body.covertura input.cotiza_lada, input.cotiza_telefono{
+	position: relative;
+	bottom: 107px;
+	height: 14px;
+	left: 11px;
+	width: 90px;
+	display: inline-block;
+}
+body.covertura input.covertura_lada{
+	width: 30px;
+}
+
+body.covertura div.datos{
+	height: auto;
+	margin-top: -100%;
+}
+body.covertura input.fecha{
+	display: block;
+	font-weight: bold;
+	height: 33px;
+	margin: -83px auto auto;
+	width: 67px;
+}
+body.covertura div.into-azul{
+	height: auto;
+}
+body.covertura div.covertura{
+	height: 80%;
+	background-image: url("../images/fondo_rojo2.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+body.covertura div.coverturador{
+	height: 350px;
+	max-width: 50px;
+}
+body.covertura em p{
+	display: block;
+	margin: auto;
+	color: #FFFF66;
+	width: 90%;
+}
+body.covertura  div.coverturador select input{
+	height: 20px;
+}
+
+
+
+
+
+
+body.covertura .inline{
+	display: inline-block;
+	color: white;
+}
+body.covertura  .campos{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 50%;
+}
+body.covertura  .campos_tel{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 30%;
+}
+body.covertura  .campos_tel_lada{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 20%;
+}
+body.covertura div.formul {
+	display: block;
+	padding-left: 15px;
+	padding-top: 10px;
+	line-height: 11px;
+	color: white;
+	font-size: 10px;
+
+}
+body.covertura .inline .camposdir{
+	height: 20px;
+	border-radius: 2px;
+	font-size: 10px;
+	width: 63%;
+	
+}
+body.covertura .formul .row-fluid{
+	height: 21px;
+}
+body.covertura div.formul .btn {
+	display: block;
+	float:left;
+	border-radius: 2px;
+	width: 60px;
+	font-size: 10px;
+	height: 15px;
+	line-height: 2px;
+}
+body.covertura div.formul .checkbox{
+	float: left;
+	margin: 3px;
+	margin-top: -5px;
+}
+body.covertura p.nesesitamos{
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	color: yellow;
+	display: block;
+	line-height: 15px;
+}
+body.covertura th, td,div.formul .tabla{
+	
+	border: 2px solid red;
+}
+body.covertura .tabla{
+	width: 100%;
+}
+body.covertura .tabla td{
+	font-weight: bold;
+	width: 14%;
+	padding:5px 0 0px 0;
+}
+body.covertura .tabla td input{
+	display: block;
+	margin:5px auto 5px;
+	font-weight: bold;
+}
+body.covertura .tabla div.centrado{
+	font-weight: bold;
+	text-align: center;
+}
+/* medios y tablets */
+@media (max-width: 659px) and (min-width: 480px) {
+	body.covertura input.covertura_nombre{
+		position: relative;
+		bottom: 108px;
+		height: 14px;
+		left: -55px;
+		width: 90px;
+		display: block;
+		margin: auto;
+	}
+	body.covertura .tabla{
+		width: 96%;
+
+	}
+	body.covertura p.nesesitamos{
+		display: block;
+		float: left;
+		margin-bottom: 22px;
+	}
+	body.covertura div.formul.campos{
+		float: right;
+		width: 60%;
+	}
+	body.covertura div.azul{
+		margin-top: 10px;
+		height: auto;
+		height: 270px;
+		margin-bottom: 50px;
+	}
+	
+	body.covertura  img.slogan{
+		display: block;
+		margin: auto;
+		margin-top: 10px;
+	}
+	body.covertura img.responde{
+		display: block;
+		margin: auto;
+	}
+	body.covertura div.verde{
+		width: 80%;
+		margin-left: 10%
+	}
+	body.covertura .exeption{
+		margin-left: 100px;
+	}
+	body.covertura div.datos{
+		display: block;
+		margin: auto;
+		width: 160px;
+	}
+	body.covertura input.covertura_lada, input.covertura_telefono{
+		bottom: 121px;
+		height: 14px;
+		left: -25px;
+		position: relative;
+	}
+	body.covertura div.red-responsive{
+		height: 250px;
+	}
+	body.covertura div.formul .telefono {
+		display: block;
+		float:right;
+
+	}
+
+}
+/* telefonos */
+@media (max-width: 479px){
+
+	body.covertura div.azul{
+		margin-top: 10px;
+		height: auto;
+		height: 270px;
+
+	}
+	body.covertura p.nesesitamos{
+		display: block;
+		float: left;
+		margin-bottom: 22px;
+	}
+	body.covertura input.covertura_nombre{
+		position: relative;
+		bottom: 108px;
+		height: 14px;
+		left: -55px;
+		width: 90px;
+		display: block;
+		margin: auto;
+	}
+	body.covertura div.datos{
+		display: block;
+		margin: auto;
+		width: 160px;
+	}
+	body.covertura input.covertura_lada, input.covertura_telefono{
+		bottom: 121px;
+		height: 14px;
+		left: -25px;
+		position: relative;
+	}
+}

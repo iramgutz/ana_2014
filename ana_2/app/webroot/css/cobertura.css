@@ -1,0 +1,319 @@
+body.cobertura h1{
+	text-align: center;
+	font-weight: lighter;
+	line-height: 150%;
+}
+
+h1,h2,h3,h4 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+body.cobertura p.red-text{
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold;
+}
+body.cobertura{
+	background-color: #ecefff;
+}
+body.cobertura div.area{
+	display: block;
+	max-width: 740px;
+	margin: auto;
+	min-width: 450px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 4px #888888;
+}
+
+body.cobertura div.flash{
+	margin-top: 20px;
+	height: 205px;
+	background-color: #484848;
+}
+body.cobertura div.rojo{
+	background-image: url(../images/fondo_rojo2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 296px;
+	max-height: 100%;
+	position: relative;
+}
+body.cobertura div.azul{
+	
+	height: auto;
+	background-color: #ffffff;
+}
+body.cobertura img.responde{
+	display: block;
+	margin: auto;
+	max-height: 100%;
+}
+body.cobertura div.verde{
+	height: auto;
+	min-height: 50px;
+	background-color: #ffffff;
+}
+body.cobertura  img.slogan{
+	display: block;
+	margin: auto;
+
+}
+body.cobertura  img.cobertura{
+	display: block;
+	
+}
+body.cobertura .aire{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+body.cobertura .center{
+	text-align: center;
+}
+body.cobertura input.cotiza_nombre{
+	position: relative;
+	bottom: 105px;
+	height: 14px;
+	left: 11px;
+	width: 90px;
+	margin-top: 100%;
+}
+body.cobertura input.cotiza_lada, input.cotiza_telefono{
+	position: relative;
+	bottom: 107px;
+	height: 14px;
+	left: 11px;
+	width: 90px;
+	display: inline-block;
+}
+body.cobertura input.cobertura_lada{
+	width: 30px;
+}
+
+body.cobertura div.datos{
+	height: auto;
+	margin-top: -100%;
+}
+body.cobertura input.fecha{
+	display: block;
+	font-weight: bold;
+	height: 33px;
+	margin: -83px auto auto;
+	width: 67px;
+}
+body.cobertura div.into-azul{
+	height: auto;
+}
+body.cobertura div.cobertura{
+	height: 80%;
+	background-image: url("../images/fondo_rojo2.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+body.cobertura div.coberturador{
+	height: 350px;
+	max-width: 50px;
+}
+body.cobertura em p{
+	display: block;
+	margin: auto;
+	color: #FFFF66;
+	width: 90%;
+}
+body.cobertura  div.coberturador select input{
+	height: 20px;
+}
+
+
+
+
+
+
+body.cobertura .inline{
+	display: inline-block;
+	color: white;
+}
+body.cobertura  .campos{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 50%;
+}
+body.cobertura  .campos_tel{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 30%;
+}
+body.cobertura  .campos_tel_lada{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 20%;
+}
+body.cobertura div.formul {
+	display: block;
+	padding-left: 15px;
+	padding-top: 10px;
+	line-height: 11px;
+	color: white;
+	font-size: 10px;
+
+}
+body.cobertura .inline .camposdir{
+	height: 20px;
+	border-radius: 2px;
+	font-size: 10px;
+	width: 63%;
+	
+}
+body.cobertura .formul .row-fluid{
+	height: 21px;
+}
+body.cobertura div.formul .btn {
+	display: block;
+	float:left;
+	border-radius: 2px;
+	width: 60px;
+	font-size: 10px;
+	height: 15px;
+	line-height: 2px;
+}
+body.cobertura div.formul .checkbox{
+	float: left;
+	margin: 3px;
+	margin-top: -5px;
+}
+body.cobertura p.nesesitamos{
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	color: yellow;
+	display: block;
+	line-height: 15px;
+}
+body.cobertura th, td,div.formul .tabla{
+	
+	border: 2px solid red;
+}
+body.cobertura .tabla{
+	width: 100%;
+}
+body.cobertura .tabla td{
+	font-weight: bold;
+	width: 14%;
+	padding:5px 0 0px 0;
+}
+body.cobertura .tabla td input{
+	display: block;
+	margin:5px auto 5px;
+	font-weight: bold;
+}
+body.cobertura .tabla div.centrado{
+	font-weight: bold;
+	text-align: center;
+}
+/* medios y tablets */
+@media (max-width: 659px) and (min-width: 480px) {
+	body.cobertura input.cobertura_nombre{
+		position: relative;
+		bottom: 108px;
+		height: 14px;
+		left: -55px;
+		width: 90px;
+		display: block;
+		margin: auto;
+	}
+	body.cobertura .tabla{
+		width: 96%;
+
+	}
+	body.cobertura p.nesesitamos{
+		display: block;
+		float: left;
+		margin-bottom: 22px;
+	}
+	body.cobertura div.formul.campos{
+		float: right;
+		width: 60%;
+	}
+	body.cobertura div.azul{
+		margin-top: 10px;
+		height: auto;
+		height: 270px;
+		margin-bottom: 50px;
+	}
+	
+	body.cobertura  img.slogan{
+		display: block;
+		margin: auto;
+		margin-top: 10px;
+	}
+	body.cobertura img.responde{
+		display: block;
+		margin: auto;
+	}
+	body.cobertura div.verde{
+		width: 80%;
+		margin-left: 10%
+	}
+	body.cobertura .exeption{
+		margin-left: 100px;
+	}
+	body.cobertura div.datos{
+		display: block;
+		margin: auto;
+		width: 160px;
+	}
+	body.cobertura input.cobertura_lada, input.cobertura_telefono{
+		bottom: 121px;
+		height: 14px;
+		left: -25px;
+		position: relative;
+	}
+	body.cobertura div.red-responsive{
+		height: 250px;
+	}
+	body.cobertura div.formul .telefono {
+		display: block;
+		float:right;
+
+	}
+
+}
+/* telefonos */
+@media (max-width: 479px){
+
+	body.cobertura div.azul{
+		margin-top: 10px;
+		height: auto;
+		height: 270px;
+
+	}
+	body.cobertura p.nesesitamos{
+		display: block;
+		float: left;
+		margin-bottom: 22px;
+	}
+	body.cobertura input.cobertura_nombre{
+		position: relative;
+		bottom: 108px;
+		height: 14px;
+		left: -55px;
+		width: 90px;
+		display: block;
+		margin: auto;
+	}
+	body.cobertura div.datos{
+		display: block;
+		margin: auto;
+		width: 160px;
+	}
+	body.cobertura input.cobertura_lada, input.cobertura_telefono{
+		bottom: 121px;
+		height: 14px;
+		left: -25px;
+		position: relative;
+	}
+}

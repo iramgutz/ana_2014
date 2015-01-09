@@ -1,0 +1,114 @@
+body.home h1{
+	text-align: center;
+	font-weight: lighter;
+	line-height: 150%;
+}
+
+h1,h2,h3,h4 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+body.home p.red-text{
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold;
+}
+body.home{
+	background-color: #ecefff;
+}
+body.home div.area{
+	display: block;
+	max-width: 740px;
+	margin: auto;
+	min-width: 340px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 4px #888888;
+}
+
+body.home div.flash{
+	margin-top: 20px;
+	height: 205px;
+	background-color: #484848;
+}
+body.home div.rojo{
+	height: auto;
+	background-color: #ffffff;
+
+}
+body.home div.azul{
+	
+	height: auto;
+	background-color: #ffffff;
+}
+body.home img.responde{
+	display: block;
+	margin: auto;
+}
+body.home div.verde{
+	height: auto;
+	min-height: 50px;
+	background-color: #ffffff;
+}
+body.home  img.slogan{
+	display: block;
+	margin: auto;
+
+}
+body.home  img.cotiza{
+	display: block;
+	
+}
+body.home .aire{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+body.home .center{
+	text-align: center;
+}
+
+/* medios y tablets */
+@media (max-width: 659px) and (min-width: 480px) {
+	
+
+	body.home div.rojo{
+		height: 242px;
+		
+	}
+	body.home div.azul{
+		margin-top: 10px;
+		height: auto;
+
+	}
+	body.home img.cotiza{
+		display: block;
+		height: 242px;
+
+	}
+	body.home  img.slogan{
+		display: block;
+		margin: auto;
+		margin-top: 10px;
+	}
+	body.home img.responde{
+		display: block;
+		margin: auto;
+	}
+	body.home div.verde{
+		width: 80%;
+		margin-left: 10%
+	}
+	body.home .exeption{
+		margin-left: 100px;
+	}
+}
+/* telefonos */
+@media (max-width: 479px){
+
+	body.home div.azul{
+		margin-top: 10px;
+		height: auto;
+
+	}
+}

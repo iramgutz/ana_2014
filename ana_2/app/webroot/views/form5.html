@@ -1,0 +1,30 @@
+<div class="span8 rojo ">
+
+
+				<div class="formul span11">
+					<br>
+					<button type="button" class="btn" ng-click="contratar();">Contratar</button>
+					<p class="nesesitamos">¡Perfecto ! ¿Quieres que te llamemos por teléfono al {{data.datos.lada}} {{data.datos.telefono}} para tomarte los datos ya para emitir tu póliza de una vez? </p>
+					<input type="radio" name="opcion" value="si" ng-model="llamar" >&nbsp;Si gracias.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					<input type="radio" name="opcion" value="no" ng-model="llamar" >&nbsp;No gracias
+					<br>
+					<br>
+					<button type="button" class="btn" ng-click="next();">Siguiente</button>
+					<!--<button type="button" class="btn" ng-click="contratar();">Contratar</button>-->
+				</div>
+
+			</div>
+			<div class="span4 azul">
+				<img src="images/banner-lateral.jpg" alt="ersponde por ti" class="responde">
+				<div class="into-azul">
+
+					<div row-fluid class="datos">
+						<input id="_Nombre" class="cotiza_nombre" type="text" value="" maxlength="50" size="15" name="data[Contacto][nombre]"> <br> <br>
+						<input name="data[Telefono][lada]" class="cotiza_lada" class="cotizador2" value="55" size="5" maxlength="5" id="_Lada" type="text">
+						<input name="data[Telefono][telefono]" class="cotiza_telefono" size="10" maxlength="20" id="_Telefono" value="" type="text">
+
+					</div>
+
+				</div>
+				<input type="submit" class="fecha" value="Enviar">
+			</div>

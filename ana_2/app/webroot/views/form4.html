@@ -1,0 +1,271 @@
+			<div class="span8 rojo ">
+
+
+				<div class="formul span11">
+					<p class="nesesitamos">¿Que cobertura y que forma de pago prefieres?</p>
+					<br>
+					<table class="tabla">
+						<tr>
+							<td rowspan="2" colspan="2"><div class="centrado"><p>Cobertura/Pago</p></div></td>
+							<td>
+								<input type="radio" name="pago" value="contado" ng-model="pago" id="blue">
+							</td>
+							<td>
+								<input type="radio" name="pago" value="semestral" ng-model="pago" id="blue">
+							</td>
+							<td>
+								<input type="radio" name="pago" value="cuatrimestral" ng-model="pago" id="blue">
+							</td>
+							<td>
+								<input type="radio" name="pago" value="trimestral" ng-model="pago" id="blue">
+							</td>
+							<td>
+								<input type="radio" name="pago" value="mensual_tdc" ng-model="pago" id="blue">
+							</td>
+						</tr>
+						<tr>	
+							<td>
+								<div class="centrado">
+									<p>Contado</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>Semestral</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>Cuatrimestral</p>
+								</div>
+							</td>		
+							<td>
+								<div class="centrado">
+									<p>Trimestral</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>Mensual TDC</p>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="radio" name="cobertura" value="1" ng-model="cobertura" id="red">
+							</td>
+							<td>
+								<div class="centrado">
+									<p>Amplia basica</p>
+								</div>
+							</td>
+	
+							<td>
+								<div class="centrado">
+									<p>
+										{{ data.cotizacion.amplia.contado | currency  }}
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										P.I. : {{ data.cotizacion.amplia.sem.inicial | currency }}<br>
+										P.S. : {{ data.cotizacion.amplia.sem.subsecuente | currency }}<br>
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										P.I. : {{ data.cotizacion.amplia.cuatri.inicial | currency }}<br>
+										P.S. : {{ data.cotizacion.amplia.cuatri.subsecuente | currency }}<br>
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										P.I. : {{ data.cotizacion.amplia.trim.inicial | currency }}<br>
+										P.S. : {{ data.cotizacion.amplia.trim.subsecuente | currency }}<br>
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										{{ data.cotizacion.amplia.TDC | currency }}
+									</p>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="radio" name="cobertura" value="4" ng-model="cobertura" id="red">
+							</td>
+							<td>
+								<div class="centrado">
+									<p>Amplia +10</p>
+								</div>
+							</td>
+	
+							<td>
+								<div class="centrado">
+									<p>
+										{{ data.cotizacion.amplia_10.contado | currency }}
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										P.I. : {{ data.cotizacion.amplia_10.sem.inicial | currency }}<br>
+										P.S. : {{ data.cotizacion.amplia_10.sem.subsecuente | currency }}<br>
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										P.I. : {{ data.cotizacion.amplia_10.cuatri.inicial | currency }}<br>
+										P.S. : {{ data.cotizacion.amplia_10.cuatri.subsecuente | currency }}<br>
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										P.I. : {{ data.cotizacion.amplia_10.trim.inicial | currency }}<br>
+										P.S. : {{ data.cotizacion.amplia_10.trim.subsecuente | currency }}<br>
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										{{ data.cotizacion.amplia_10.TDC | currency }}
+									</p>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="radio" name="cobertura" value="2" ng-model="cobertura" id="red">
+							</td>
+							<td>
+								<div class="centrado">
+									<p>UPT</p>
+								</div>
+							</td>
+	
+							
+	
+							<td>
+								<div class="centrado">
+									<p>
+										{{ data.cotizacion.UPT.contado | currency }}
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										P.I. : {{ data.cotizacion.UPT.sem.inicial | currency }}<br>
+										P.S. : {{ data.cotizacion.UPT.sem.subsecuente | currency }}<br>
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										P.I. : {{ data.cotizacion.UPT.cuatri.inicial | currency }}<br>
+										P.S. : {{ data.cotizacion.UPT.cuatri.subsecuente | currency }}<br>
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										P.I. : {{ data.cotizacion.UPT.trim.inicial | currency }}<br>
+										P.S. : {{ data.cotizacion.UPT.trim.subsecuente | currency }}<br>
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										{{ data.cotizacion.UPT.TDC | currency }}
+									</p>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="radio" name="cobertura" value="3" ng-model="cobertura" id="red">
+							</td>
+						<td>
+								<div class="centrado">
+									<p>Limitada</p>
+								</div>
+							</td>
+	
+							<td>
+								<div class="centrado">
+									<p>
+										{{ data.cotizacion.limitada.contado | currency }}
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										P.I. : {{ data.cotizacion.limitada.sem.inicial | currency }}<br>
+										P.S. : {{ data.cotizacion.limitada.sem.subsecuente | currency }}<br>
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										P.I. : {{ data.cotizacion.limitada.cuatri.inicial | currency }}<br>
+										P.S. : {{ data.cotizacion.limitada.cuatri.subsecuente | currency }}<br>
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										P.I. : {{ data.cotizacion.limitada.trim.inicial | currency }}<br>
+										P.S. : {{ data.cotizacion.limitada.trim.subsecuente | currency }}<br>
+									</p>
+								</div>
+							</td>
+							<td>
+								<div class="centrado">
+									<p>
+										{{ data.cotizacion.limitada.TDC | currency }}
+									</p>
+								</div>
+							</td>
+						
+						</tr>
+					</table>
+					<br>
+					<button type="submit" class="btn" ng-click="checkForm()">Siguiente</button>
+				</div>
+
+			</div>
+			<div class="span4 azul">
+				<img src="images/banner-lateral.jpg" alt="ersponde por ti" class="responde">
+				<div class="into-azul">
+
+					<div row-fluid class="datos">
+						<input id="_Nombre" class="cotiza_nombre" type="text" value="" maxlength="50" size="15" name="data[Contacto][nombre]"> <br> <br>
+						<input name="data[Telefono][lada]" class="cotiza_lada" class="cotizador2" value="55" size="5" maxlength="5" id="_Lada" type="text">
+						<input name="data[Telefono][telefono]" class="cotiza_telefono" size="10" maxlength="20" id="_Telefono" value="" type="text">
+
+					</div>
+
+				</div>
+				<input type="submit" class="fecha" value="Enviar">
+			</div>

@@ -1,0 +1,303 @@
+body.datos_coche h1{
+	text-align: center;
+	font-weight: lighter;
+	line-height: 150%;
+}
+
+h1,h2,h3,h4 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+body.datos_coche p.red-text{
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold;
+}
+body.datos_coche{
+	background-color: #ecefff;
+}
+body.datos_coche div.area{
+	display: block;
+	max-width: 740px;
+	margin: auto;
+	min-width: 450px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 4px #888888;
+}
+
+body.datos_coche div.flash{
+	margin-top: 20px;
+	height: 205px;
+	background-color: #484848;
+}
+body.datos_coche div.rojo{
+	background-image: url(../images/fondo_rojo2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 296px;
+	max-height: 100%;
+	position: relative;
+}
+body.datos_coche div.azul{
+	
+	height: auto;
+	background-color: #ffffff;
+}
+body.datos_coche img.responde{
+	display: block;
+	margin: auto;
+	max-height: 100%;
+}
+body.datos_coche div.verde{
+	height: auto;
+	min-height: 50px;
+	background-color: #ffffff;
+}
+body.datos_coche  img.slogan{
+	display: block;
+	margin: auto;
+
+}
+body.datos_coche  img.datos_coche{
+	display: block;
+	
+}
+body.datos_coche .aire{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+body.datos_coche .center{
+	text-align: center;
+}
+body.datos_coche input.cotiza_nombre{
+	position: relative;
+	bottom: 105px;
+	height: 14px;
+	left: 11px;
+	width: 90px;
+	margin-top: 100%;
+}
+body.datos_coche input.cotiza_lada, input.cotiza_telefono{
+	position: relative;
+	bottom: 107px;
+	height: 14px;
+	left: 11px;
+	width: 90px;
+	display: inline-block;
+}
+body.datos_coche input.datos_coche_lada{
+	width: 30px;
+}
+
+body.datos_coche div.datos{
+	height: auto;
+	margin-top: -100%;
+}
+body.datos_coche input.fecha{
+	display: block;
+	font-weight: bold;
+	height: 33px;
+	margin: -83px auto auto;
+	width: 67px;
+}
+body.datos_coche div.into-azul{
+	height: auto;
+}
+body.datos_coche div.datos_coche{
+	height: 80%;
+	background-image: url("../images/fondo_rojo2.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+body.datos_coche div.datos_cochedor{
+	height: 350px;
+	max-width: 50px;
+}
+body.datos_coche em p{
+	display: block;
+	margin: auto;
+	color: #FFFF66;
+	width: 90%;
+}
+body.datos_coche  div.datos_cochedor select input{
+	height: 20px;
+}
+
+body.datos_coche div.formul{
+	padding: 10px;
+	line-height: 11px;
+	color: white;
+	font-size: 10px;
+}
+
+body.datos_coche div.formul  * {
+	display: block;
+	float:right;
+}
+
+
+body.datos_coche .inline{
+	display: inline-block;
+	color: white;
+}
+body.datos_coche  .campos{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 50%;
+}
+body.datos_coche  .campos_tel{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 30%;
+}
+body.datos_coche  .campos_tel_lada{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 20%;
+}
+body.datos_coche div.formul {
+	display: block;
+	padding-left: 35px;
+	padding-top: 80px;
+
+}
+body.datos_coche .inline .camposdir{
+	height: 20px;
+	border-radius: 2px;
+	font-size: 10px;
+	width: 63%;
+	
+}
+body.datos_coche .formul .row-fluid{
+	height: 21px;
+}
+body.datos_coche div.formul .btn {
+	display: block;
+	float:left;
+	border-radius: 2px;
+	width: 60px;
+	font-size: 10px;
+	height: 15px;
+	line-height: 2px;
+}
+body.datos_coche div.formul .checkbox{
+	float: left;
+	margin: 3px;
+	margin-top: -5px;
+}
+body.datos_coche p.nesesitamos{
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	color: yellow;
+	display: block;
+}
+/* medios y tablets */
+@media (max-width: 659px) and (min-width: 480px) {
+	body.datos_coche input.datos_coche_nombre{
+		position: relative;
+		bottom: 108px;
+		height: 14px;
+		left: -55px;
+		width: 90px;
+		display: block;
+		margin: auto;
+	}
+	body.datos_coche div.formul  * {
+		display: block;
+		float:right;
+
+	}
+	body.datos_coche p.nesesitamos{
+	    display: block;
+    float: left;
+    margin-bottom: 22px;
+	}
+	body.datos_coche div.formul.campos{
+		float: right;
+		width: 60%;
+	}
+	body.datos_coche div.azul{
+		margin-top: 10px;
+		height: auto;
+		height: 270px;
+		margin-bottom: 50px;
+	}
+	
+	body.datos_coche  img.slogan{
+		display: block;
+		margin: auto;
+		margin-top: 10px;
+	}
+	body.datos_coche img.responde{
+		display: block;
+		margin: auto;
+	}
+	body.datos_coche div.verde{
+		width: 80%;
+		margin-left: 10%
+	}
+	body.datos_coche .exeption{
+		margin-left: 100px;
+	}
+	body.datos_coche div.datos{
+		display: block;
+		margin: auto;
+		width: 160px;
+	}
+	body.datos_coche input.datos_coche_lada, input.datos_coche_telefono{
+		bottom: 121px;
+		height: 14px;
+		left: -25px;
+		position: relative;
+	}
+	body.datos_coche div.red-responsive{
+		height: 250px;
+	}
+	body.datos_coche div.formul .telefono {
+		display: block;
+		float:right;
+
+	}
+
+}
+/* telefonos */
+@media (max-width: 479px){
+
+	body.datos_coche div.azul{
+		margin-top: 10px;
+		height: auto;
+		height: 270px;
+
+	}
+	body.datos_coche p.nesesitamos{
+	    display: block;
+    float: left;
+    margin-bottom: 22px;
+	}
+	body.datos_coche input.datos_coche_nombre{
+		position: relative;
+		bottom: 108px;
+		height: 14px;
+		left: -55px;
+		width: 90px;
+		display: block;
+		margin: auto;
+	}
+	body.datos_coche div.datos{
+		display: block;
+		margin: auto;
+		width: 160px;
+	}
+	body.datos_coche input.datos_coche_lada, input.datos_coche_telefono{
+		bottom: 121px;
+		height: 14px;
+		left: -25px;
+		position: relative;
+	}
+}

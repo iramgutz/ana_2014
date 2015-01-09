@@ -1,0 +1,59 @@
+
+<div class="span8 rojo" ng-controller="HomeController" >
+
+	<img src="images/fondo_rojo.gif" alt="cotiza y compara" class="responde">
+				
+		<div class="row-fluid postalcode" >
+					
+			<form name="cpForm" class="form-horizontal" role="form" ng-submit="cpForm.$valid" novalidate>
+
+				<p align="right" class="cotizador"><br>
+							
+					<font color="#FFFF66" size="2"><em> &#191;Cu&aacute;l es tu c&oacute;digo postal?</em></font>                         
+								&nbsp;&nbsp;                         
+							
+					<input name="data[Contacto][key]"  type="hidden" value="" id="ContactoKey" />       
+								
+					<input ng-model="codigo_postal" ng-keyup="test()"  name="data[Cotizacion][codigo_postal]"  class="cotizador2" size="5" maxlength="5" value="56546" type="text" id="CotizacionCodigoPostal" required />   
+								
+					<input name="data[Contacto][medio]"  type="hidden" value="desconocido" id="ContactoMedio" />
+
+					<input name="data[Contacto][gclid]"  type="hidden" value="" id="ContactoGclid" />
+
+				</p>
+
+				<p class="error" ng-if="error_cp"> 
+
+					<font color="#FFFF66" size="2">
+
+						{{ error_cp }}
+
+                	</font>
+
+                </p>
+
+				<p align="right"> 
+
+					<font class="cotizador"><em><font color="#FFFF66" size="2"> &#191;Est&aacute; asegurado tu coche?</font></em></font><font color="#FFFF66" size="2">&nbsp;&nbsp; 
+					</font> 
+
+					<select name="data[Contacto][seguro]"  ng-model="seguro" class="cotizador2" id="seguro">
+						<option value="1" >Si</option>
+						<option value="0"  selected="selected">No</option>
+					</select>                        
+
+					<input type="button" class="fecha" ng-click="checkCP()" value="Siguiente &gt;&gt;&gt;" />	
+							
+				</p>
+
+			</form>
+
+		</div>
+
+	</div>
+	
+	<div class="span4 azul">
+	
+		<img src="images/animacion.gif" alt="ersponde por ti" class="responde">
+		
+	</div>

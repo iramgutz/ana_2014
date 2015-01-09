@@ -1,0 +1,334 @@
+body.llamar h1{
+	text-align: center;
+	font-weight: lighter;
+	line-height: 150%;
+}
+
+h1,h2,h3,h4 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+body.llamar p.red-text{
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold;
+}
+body.llamar{
+	background-color: #ecefff;
+}
+body.llamar div.area{
+	display: block;
+	max-width: 740px;
+	margin: auto;
+	min-width: 450px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 4px #888888;
+}
+
+body.llamar div.flash{
+	margin-top: 20px;
+	height: 205px;
+	background-color: #484848;
+}
+body.llamar div.rojo{
+	background-image: url(../images/fondo_rojo2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 296px;
+	max-height: 100%;
+	position: relative;
+}
+body.llamar div.azul{
+	
+	height: auto;
+	background-color: #ffffff;
+}
+body.llamar img.responde{
+	display: block;
+	margin: auto;
+	max-height: 100%;
+}
+body.llamar div.verde{
+	height: auto;
+	min-height: 50px;
+	background-color: #ffffff;
+}
+body.llamar  img.slogan{
+	display: block;
+	margin: auto;
+
+}
+body.llamar  img.cobertura{
+	display: block;
+	
+}
+body.llamar .aire{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+body.llamar .center{
+	text-align: center;
+}
+body.llamar input.cotiza_nombre{
+	position: relative;
+	bottom: 105px;
+	height: 14px;
+	left: 11px;
+	width: 90px;
+	margin-top: 100%;
+}
+body.llamar input.cotiza_lada, input.cotiza_telefono{
+	position: relative;
+	bottom: 107px;
+	height: 14px;
+	left: 11px;
+	width: 90px;
+	display: inline-block;
+}
+body.llamar input.cobertura_lada{
+	width: 30px;
+}
+
+body.llamar div.datos{
+	height: auto;
+	margin-top: -100%;
+}
+body.llamar input.fecha{
+	display: block;
+	font-weight: bold;
+	height: 33px;
+	margin: -83px auto auto;
+	width: 67px;
+}
+body.llamar div.into-azul{
+	height: auto;
+}
+body.llamar div.cobertura{
+	height: 80%;
+	background-image: url("../images/fondo_rojo2.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+body.llamar div.coberturador{
+	height: 350px;
+	max-width: 50px;
+}
+body.llamar em p{
+	display: block;
+	margin: auto;
+	color: #FFFF66;
+	width: 90%;
+}
+body.llamar  div.coberturador select input{
+	height: 20px;
+}
+
+
+
+
+
+
+body.llamar .inline{
+	display: inline-block;
+	color: white;
+}
+body.llamar  .campos{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 50%;
+}
+body.llamar  .campos_tel{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 30%;
+}
+body.llamar  .campos_tel_lada{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 20%;
+}
+body.llamar div.formul {
+	display: block;
+	padding-left: 15px;
+	padding-top: 10px;
+	line-height: 11px;
+	color: white;
+	font-size: 10px;
+
+}
+body.llamar .inline .camposdir{
+	height: 20px;
+	border-radius: 2px;
+	font-size: 10px;
+	width: 63%;
+	
+}
+body.llamar .formul .row-fluid{
+	height: 21px;
+}
+body.llamar div.formul .btn {
+	display: block;
+	float:left;
+	border-radius: 2px;
+	width: 60px;
+	font-size: 10px;
+	height: 15px;
+	line-height: 2px;
+}
+body.llamar div.formul .checkbox{
+	float: left;
+	margin: 3px;
+	margin-top: -5px;
+}
+body.llamar p.nesesitamos{
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	color: yellow;
+	display: block;
+	line-height: 15px;
+}
+body.llamar th, td,div.formul .tabla{
+	
+	border: 2px solid red;
+}
+body.llamar .tabla{
+	width: 100%;
+}
+body.llamar .tabla td{
+	font-weight: bold;
+	width: 14%;
+	padding:5px 0 0px 0;
+}
+body.llamar .tabla td input{
+	display: block;
+	margin:5px auto 5px;
+	font-weight: bold;
+}
+body.llamar .tabla div.centrado{
+	font-weight: bold;
+	text-align: center;
+}
+/* medios y tablets */
+@media (max-width: 659px) and (min-width: 480px) {
+	body.llamar input.cobertura_nombre{
+		position: relative;
+		bottom: 108px;
+		height: 14px;
+		left: -55px;
+		width: 90px;
+		display: block;
+		margin: auto;
+	}
+	body.llamar .tabla{
+		width: 96%;
+
+	}
+	body.llamar p.nesesitamos{
+		display: block;
+		float: left;
+		margin-bottom: 22px;
+	}
+	body.llamar div.formul.campos{
+		float: right;
+		width: 60%;
+	}
+	body.llamar div.azul{
+		margin-top: 10px;
+		height: auto;
+		height: 270px;
+		margin-bottom: 50px;
+	}
+	
+	body.llamar  img.slogan{
+		display: block;
+		margin: auto;
+		margin-top: 10px;
+	}
+	body.llamar img.responde{
+		display: block;
+		margin: auto;
+	}
+	body.llamar div.verde{
+		width: 80%;
+		margin-left: 10%
+	}
+	body.llamar .exeption{
+		margin-left: 100px;
+	}
+	body.llamar div.datos{
+		display: block;
+		margin: auto;
+		width: 160px;
+	}
+	body.llamar input.cobertura_lada, input.cobertura_telefono{
+		bottom: 121px;
+		height: 14px;
+		left: -25px;
+		position: relative;
+	}
+	body.llamar div.red-responsive{
+		height: 250px;
+	}
+	body.llamar div.formul .telefono {
+		display: block;
+		float:right;
+
+	}
+
+}
+/* telefonos */
+@media (max-width: 479px){
+
+	body.llamar div.azul{
+		margin-top: 10px;
+		height: auto;
+		height: 270px;
+
+	}
+	body.llamar p.nesesitamos{
+		display: block;
+		float: left;
+		margin-bottom: 22px;
+	}
+	body.llamar input.cobertura_nombre{
+		position: relative;
+		bottom: 108px;
+		height: 14px;
+		left: -55px;
+		width: 90px;
+		display: block;
+		margin: auto;
+	}
+	body.llamar div.datos{
+		display: block;
+		margin: auto;
+		width: 160px;
+	}
+	body.llamar input.cobertura_lada, input.cobertura_telefono{
+		bottom: 121px;
+		height: 14px;
+		left: -25px;
+		position: relative;
+	}
+}
+
+body.llamar div.rojo{
+	background-image: url(../images/fondo_rojo3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 296px;
+	max-height: 100%;
+	position: relative;
+}
+body.llamar  .campos{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 20%;
+}

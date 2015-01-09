@@ -1,0 +1,15 @@
+
+body.covertura div.rojo{
+	background-image: url(../images/fondo_rojo3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 296px;
+	max-height: 100%;
+	position: relative;
+}
+body.covertura  .campos{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 20%;
+}

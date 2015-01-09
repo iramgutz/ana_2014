@@ -1,0 +1,294 @@
+body.cotiza h1{
+	text-align: center;
+	font-weight: lighter;
+	line-height: 150%;
+}
+
+h1,h2,h3,h4 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+body.cotiza p.red-text{
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold;
+}
+body.cotiza{
+	background-color: #ecefff;
+}
+body.cotiza div.area{
+	display: block;
+	max-width: 740px;
+	margin: auto;
+	min-width: 450px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 4px #888888;
+}
+
+body.cotiza div.flash{
+	margin-top: 20px;
+	height: 205px;
+	background-color: #484848;
+}
+body.cotiza div.rojo{
+	background-image: url(../images/fondo_rojo2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 296px;
+	max-height: 100%;
+	position: relative;
+}
+body.cotiza div.azul{
+	
+	height: auto;
+	background-color: #ffffff;
+}
+body.cotiza img.responde{
+	display: block;
+	margin: auto;
+	max-height: 100%;
+}
+body.cotiza div.verde{
+	height: auto;
+	min-height: 50px;
+	background-color: #ffffff;
+}
+body.cotiza  img.slogan{
+	display: block;
+	margin: auto;
+
+}
+body.cotiza  img.cotiza{
+	display: block;
+	
+}
+body.cotiza .aire{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+body.cotiza .center{
+	text-align: center;
+}
+body.cotiza input.cotiza_nombre{
+	position: relative;
+	bottom: 105px;
+	height: 14px;
+	left: 11px;
+	width: 90px;
+	margin-top: 100%;
+}
+body.cotiza input.cotiza_lada, input.cotiza_telefono{
+	position: relative;
+	bottom: 107px;
+	height: 14px;
+	left: 11px;
+	width: 90px;
+	display: inline-block;
+}
+body.cotiza input.cotiza_lada{
+	width: 30px;
+}
+
+body.cotiza div.datos{
+	height: auto;
+	margin-top: -100%;
+}
+body.cotiza input.fecha{
+	display: block;
+	font-weight: bold;
+	height: 33px;
+	margin: -83px auto auto;
+	width: 67px;
+}
+body.cotiza div.into-azul{
+	height: auto;
+}
+body.cotiza div.cotiza{
+	height: 80%;
+	background-image: url("../images/fondo_rojo2.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+body.cotiza div.cotizador{
+	height: 350px;
+	max-width: 50px;
+}
+body.cotiza em p{
+	display: block;
+	margin: auto;
+	color: #FFFF66;
+	width: 90%;
+}
+body.cotiza  div.cotizador select input{
+	height: 20px;
+}
+
+body.cotiza div.formul{
+	padding: 10px;
+	line-height: 11px;
+	color: white;
+	font-size: 10px;
+}
+
+body.cotiza div.formul  * {
+	display: block;
+	float:right;
+}
+body.cotiza .formularios{
+	color: white;
+}
+body.cotiza .inline{
+	display: inline-block;
+	color: white;
+}
+body.cotiza  .campos{
+	font-size: 9px;
+	height: 12px;
+	border-radius: 2px;
+	width: 50%;
+}
+body.cotiza  .campos_tel{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 30%;
+}
+body.cotiza  .campos_tel_lada{
+	font-size: 9px;
+	height: 10px;
+	border-radius: 2px;
+	width: 20%;
+}
+body.cotiza div.formul {
+	display: block;
+
+}
+body.cotiza .inline .camposdir{
+	height: 25px;
+	border-radius: 2px;
+	font-size: 10px;
+	width: 63%;
+	
+}
+body.cotiza .formul .row-fluid{
+	height: 21px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+body.cotiza div.formul .btn {
+	display: block;
+	float:left;
+	border-radius: 2px;
+	width: 60px;
+	font-size: 10px;
+	height: 15px;
+	line-height: 2px;
+}
+body.cotiza div.formul .checkbox{
+	float: left;
+	margin: 3px;
+	margin-top: -5px;
+}
+/* medios y tablets */
+@media (max-width: 659px) and (min-width: 480px) {
+	body.cotiza input.cotiza_nombre{
+		position: relative;
+		bottom: 108px;
+		height: 14px;
+		left: -55px;
+		width: 90px;
+		display: block;
+		margin: auto;
+	}
+	body.cotiza div.formul  * {
+		display: block;
+		float:right;
+
+	}
+	body.cotiza div.formul.campos{
+		float: right;
+		width: 60%;
+	}
+	body.cotiza div.azul{
+		margin-top: 10px;
+		height: auto;
+		height: 270px;
+		margin-bottom: 50px;
+	}
+	
+	body.cotiza  img.slogan{
+		display: block;
+		margin: auto;
+		margin-top: 10px;
+	}
+	body.cotiza img.responde{
+		display: block;
+		margin: auto;
+	}
+	body.cotiza div.verde{
+		width: 80%;
+		margin-left: 10%
+	}
+	body.cotiza .exeption{
+		margin-left: 100px;
+	}
+	body.cotiza div.datos{
+		display: block;
+		margin: auto;
+		width: 160px;
+	}
+	body.cotiza input.cotiza_lada, input.cotiza_telefono{
+		bottom: 121px;
+		height: 14px;
+		left: -25px;
+		position: relative;
+	}
+	body.cotiza div.red-responsive{
+		height: 250px;
+	}
+	body.cotiza div.formul .telefono {
+		display: block;
+		float:right;
+
+	}
+	body.cotiza  .campos_tel_lada{
+		
+	}
+}
+/* telefonos */
+@media (max-width: 479px){
+
+	body.cotiza div.azul{
+		margin-top: 10px;
+		height: auto;
+		height: 270px;
+
+	}
+	body.cotiza input.cotiza_nombre{
+		position: relative;
+		bottom: 108px;
+		height: 14px;
+		left: -55px;
+		width: 90px;
+		display: block;
+		margin: auto;
+	}
+	body.cotiza div.datos{
+		display: block;
+		margin: auto;
+		width: 160px;
+	}
+	body.cotiza input.cotiza_lada, input.cotiza_telefono{
+		bottom: 121px;
+		height: 14px;
+		left: -25px;
+		position: relative;
+	}
+}
+
+
+input.ng-touched.ng-invalid , select.ng-touched.ng-invalid , form.ng-submitted input.ng-invalid , form.ng-submitted select.ng-invalid{
+	border: 2px solid yellow;
+}

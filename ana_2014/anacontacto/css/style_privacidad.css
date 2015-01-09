@@ -1,0 +1,122 @@
+body.privacidad  h1{
+	text-align: center;
+	font-weight: lighter;
+	line-height: 150%;
+}
+
+h1,h2,h3,h4 {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+body.privacidad  p.red-text{
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold;
+}
+body.privacidad {
+	background-color: #ecefff;
+}
+body.privacidad  div.area{
+	display: block;
+	max-width: 740px;
+	margin: auto;
+	min-width: 340px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 4px #888888;
+}
+
+body.privacidad  div.flash{
+	margin-top: 20px;
+	height: 205px;
+	background-color: #484848;
+}
+
+body.privacidad   img.slogan{
+	display: block;
+	margin: auto;
+
+}
+body.home  div.verde{
+		width: 80%;
+		margin-left: 10%
+	}
+
+body.privacidad  .aire{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+body.privacidad  .center{
+	text-align: center;
+}
+body.privacidad  .center2{
+	text-align: center;
+	font-weight: bold;
+}
+body.privacidad  .menor{
+	font-size: 12px;
+}
+body.home  p.red-text{
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold;
+}
+body.home  .exeption{
+		margin-left: 100px;
+	}
+
+}
+
+
+/* medios y tablets */
+@media (max-width: 659px) and (min-width: 480px) {
+	
+	body.privacidad  div.rojo{
+		height: 242px;
+		
+	}
+	body.privacidad  div.azul{
+		margin-top: 10px;
+		height: auto;
+
+	}
+	body.privacidad  img.privacidad {
+		display: block;
+		height: 242px;
+
+	}
+	body.privacidad   img.slogan{
+		display: block;
+		margin: auto;
+		margin-top: 10px;
+	}
+	body.privacidad  img.responde{
+		display: block;
+		margin: auto;
+	}
+	body.privacidad  div.verde{
+		width: 80%;
+		margin-left: 10%
+	}
+	body.privacidad  .exeption{
+		margin-left: 100px;
+	}
+	body.privacidad div.postalcode{
+	height: 170px;
+
+	width: 320px;
+	position: relative;
+	display: block;
+	margin: -157px 72px auto auto;
+}
+}
+/* telefonos */
+@media (max-width: 479px){
+
+	body.privacidad  div.azul{
+		margin-top: 10px;
+		height: auto;
+
+	}
+}

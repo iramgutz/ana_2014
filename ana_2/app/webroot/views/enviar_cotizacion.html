@@ -1,0 +1,17 @@
+<div class="span12 rojo ">
+
+
+				<div class="formul span11">
+					<br>
+					<p class="nesesitamos">O si prefieres podemos enviarte tu cotización <br>para que la evalues con calma. <br><br> ¿A donde prefieres que te la enviemos? </p>
+					<br>
+					<input type="radio" name="tipo_envio" value="email" ng-model="data.tipo_envio"> A mi correo electrónico: {{ data.datos.email }}
+					<br>
+					<input type="radio" name="tipo_envio" value="fax" ng-model="data.tipo_envio"> Por fax al número siguiente: &nbsp;&nbsp;
+					<input name="fax" class="campos" id="fax" ng-model="data.fax" value="" type="text">
+					<br>
+					<br>
+					<button type="submit" class="btn" ng-click="send();">Siguiente</button>
+				</div>
+
+			</div>
